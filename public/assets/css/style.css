@@ -591,6 +591,10 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.hidden{
+  display: none;
+}
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -840,6 +844,12 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+#Servicios .row>div>div{
+  min-width: 320px;
+}
+
+
 .services .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
@@ -1475,9 +1485,13 @@ section {
   background: #47b2e4;
   color: #fff;
 }
-
+.contact .info p:hover,
 .contact .info a:hover p{
   color: #47b2e4;
+}
+
+.contact .info .address>p:hover {
+  color: #6182ba;
 }
 
 .contact .php-email-form {
@@ -1810,6 +1824,8 @@ section {
 #footer .credits a {
   transition: 0.3s;
 }
+
+
 
 @media (max-width: 768px) {
   #footer .footer-bottom {

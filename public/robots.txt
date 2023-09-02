@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://aproguaz.com/sitemap.xml

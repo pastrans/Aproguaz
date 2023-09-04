@@ -32,10 +32,18 @@ h5,
 h6 {
   font-family: "Jost", sans-serif;
 }
-
 h3{
   color: #37517e;
 }
+
+
+.info h3{
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -1575,9 +1583,6 @@ section {
 # Footer
 --------------------------------------------------------------*/
 
-.social-network-links {
-  padding-left: 60px;
-}
 
 .social-network-links  a {
   font-size: 18px;

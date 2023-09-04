@@ -71,7 +71,7 @@
  <header id="header" class="fixed-top ">
   <div class="container d-flex align-items-center">
 
-    <h1 class="logo me-auto"><a href="index.html"><img src="./assets/img/aproguaz.jpeg" alt="Imagotipo de aproguaz" > Aproguaz</a></h1>
+    <h1 class="logo me-auto"><a href="index.html"><img src="./assets/img/aproguaz.webp" alt="Imagotipo de aproguaz" > Aproguaz</a></h1>
     <!-- Uncomment below if you prefer to use an image logo -->
     <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -90,18 +90,27 @@
   </div>
 </header><!-- End Header -->
 
-<!-- ======= carusel Section ======= -->
-<section id="carusel" class="d-flex align-items-center ">
+<!-- ======= hero Section ======= -->
+<section id="hero" class="d-flex align-items-center ">
 
   <div id="carouselExampleSlidesOnly" class="carousel slide w-100" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./assets/img/aproguaz.jpg" class="d-block w-100" alt="Equipo de aproguaz">
+        <img srcset="./assets/img/equipo-de-aproguaz-360x203.webp 360w,
+                    ./assets/img/equipo-de-aproguaz-768x432.webp 768w,
+                    ./assets/img/equipo-de-aproguaz.webp 1280w"
+            sizes="(max-width: 360px) 100vw,
+                    (max-width: 768px) 50vw,
+                    1280px"
+            class="d-block w-100"
+            src="./assets/img/equipo-de-aproguaz.webp"
+            alt="Equipo de aproguaz">
+
       </div>
     </div>
   </div>
 
-</section><!-- End carusel -->
+</section><!-- End hero -->
 
 <main id="main">
 
